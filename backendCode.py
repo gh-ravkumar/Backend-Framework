@@ -6,7 +6,7 @@ environment = os.environ.get('ENV')
 print(environment)
 host = ''
 if(environment.lower() == 'sqa'):
-    host = 'acs-platform-o2c-cp-kafka-1:9092'
+    host = 'acs-platform-o2c-cp-kafka-2:9092'
 elif(environment.lower() == 'val'):
     host = 'acs-platform-qc-cp-kafka-0:9092'   
     #host = 'acs-platform-val-cp-kafka-0:9092'
